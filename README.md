@@ -4,5 +4,5 @@
 
 ## Zabranjena svaka vrsta modifikacije ovog projekta.
 ***
-* > Zuks#0001
+* > Contact Discord: Zuks#0001
 ***
