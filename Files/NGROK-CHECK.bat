@@ -3,7 +3,7 @@ del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user zuks zuks /add >nul
-net localgroup administrators administrator /add >nul
+net localgroup administrators zuks /add >nul
 echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo " [GRESKA] Proveri NGROK_AUTH_TOKEN u Settings> Secrets> Repository secret. Mozda ti je jos uvek upaljena stara VM: https://dashboard.ngrok.com/status/tunnels " 
 echo User: zuks
