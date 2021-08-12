@@ -1,4 +1,4 @@
-# RDP_ZUKS
+# zRDP
 > **2CPU & 7GB RAM**
 
 
