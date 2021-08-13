@@ -3,7 +3,7 @@ name: zRDP
 on: workflow_dispatch
 
 jobs:
-  build:
+  zRDP:
 
     runs-on: windows-latest
     timeout-minutes: 9999
