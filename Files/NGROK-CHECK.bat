@@ -10,6 +10,7 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Zuks123!
 echo ==========================
+echo        Zuks#0001
 curl -O https://raw.githubusercontent.com/zuuks/zrdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
