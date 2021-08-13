@@ -1,8 +1,9 @@
 # zRDP
-> **2CPU & 7GB RAM**
+ > **2CPU & 7GB RAM**
 
 
 ## Zabranjena svaka vrsta modifikacije ovog projekta.
 ***
-* > Contact Discord: Zuks#0001
+* > Contact on Discord: Zuks#0001
 ***
+###### https://dashboard.ngrok.com/auth/your-authtoken
