@@ -13,9 +13,9 @@ echo ==========================
 echo        Zuks#0001
 curl -O https://raw.githubusercontent.com/zuuks/zrdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\Everything.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/Everything.exe > out.txt 2>&1
-curl -o "C:\Users\Public\Desktop\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/BANDIZIP-SETUP.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\server.7z" https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/4359-cd109d614f8589903545fa7e53821d19a9b4d8b7/server.7z > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\xampp-windows-x64-7.3.29-2-VC15-installer.exe" https://www.apachefriends.org/xampp-files/7.3.29/xampp-windows-x64-7.3.29-2-VC15-installer.exe > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\sublime_text_build_4113_x64_setup.exe" https://download.sublimetext.com/sublime_text_build_4113_x64_setup.exe > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
