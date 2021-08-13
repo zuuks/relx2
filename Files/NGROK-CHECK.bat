@@ -4,10 +4,12 @@ net config server /srvcomment:"Windows Azure VM" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
 net user administrator Zuks123! /add >nul
 net localgroup administrators administrator /add >nul
+echo ==========================
 echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo " [GRESKA] Proveri NGROK_AUTH_TOKEN u Settings> Secrets> Repository secret. Mozda ti je jos uvek upaljena stara VM: https://dashboard.ngrok.com/status/tunnels " 
 echo User: Administrator
 echo Pass: Zuks123!
+echo ==========================
 curl -O https://raw.githubusercontent.com/zuuks/zrdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/npp.7.9.4.Installer.x64.exe > out.txt 2>&1
