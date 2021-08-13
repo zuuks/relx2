@@ -1,4 +1,4 @@
-name: RDP_ZUKS
+name: zRDP
 
 on: workflow_dispatch
 
@@ -34,7 +34,8 @@ jobs:
         Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "UserAuthentication" -Value 1
 
         sc start ngrok
-    - name: Informacije
-      run: cmd /c NGROK-CHECK.bat
     - name: Uspesno pokrenuta VM. Maksimalno vreme koriscenja = 6h
-      run: cmd /c loop.bat 
+      run: |
+        cmd /c NGROK-CHECK.bat
+        cmd /c loop.bat
+
