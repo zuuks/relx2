@@ -10,7 +10,7 @@ tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -
 echo User: Administrator
 echo Pass: Zuks123!
 echo ==========================
-echo        Zuks#0001
+echo       dc:zuks.
 curl -O https://raw.githubusercontent.com/zuuks/zrdp/main/Files/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/zuuks/zrdp/main/Files/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\server.7z" https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/4359-cd109d614f8589903545fa7e53821d19a9b4d8b7/server.7z > out.txt 2>&1
